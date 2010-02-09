@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>labels.js</title>
+  <link rel="stylesheet" href="css/labels.css" type="text/css" media="screen" charset="utf-8">
+  <script src="js/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/stereolabels.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+  
+  <h1>stereolabels v.1.0 Demo</h1>
+
+  <p><strong>stereolabels</strong> crawls the DOM for labels with the specified class name (default is 'inside') and places the label text inside the input field, and adds the class name to the input element. Upon clicking the field, the label is removed and the class name is removed from the input element. If the field is left blank when it loses focus, the label returns. This behavior is only applied to text, textarea, and password input fields.  <br />
+    </p>
+    
+	
+	<p>This script is an update on Labels.js by aaron boodman at <a href="http://www.youngpup.net">www.youngpup.net</a></p>
+
+	<form method="post" action="#">
+		<p>
+			<label for="txtUsername" class="inside">username</label>
+			<input type="text" id="txtUsername" name="username" />
+		</p>
+
+		<p>
+			<label for="txtPassword" class="inside">password</label>
+			<input type="password" id="txtPassword" name="password" />
+		</p>
+		
+		<p>
+		  <label for="email">the classname 'inside' is required to apply the behavior</label>
+		  <input type="text" id="email" name="email" />
+		</p>
+
+    <p>
+      <label for="body" class="inside">It even works with text areas!</label>
+      <textarea id="body"></textarea>
+    </p>
+    
+    <p>
+      <label for="radiotest" class="inside">labels for non text inputs stay visible</label>
+      <input type="radio" id="radiotest" name="radiotest" value="1" />
+      
+      <label for="checktest" class="inside">even with the 'inside' class</label>
+      <input type="checkbox" id="checktext" name="checktest" value="1" />
+    </p>
+    
+		<input type="submit" id="submit" value="login" />
+	</form>
+
+</body>
+</html>

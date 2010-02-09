@@ -1,0 +1,65 @@
+body {
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	font-size:14px;
+	background-color:#fff;
+	color:#666;
+}
+
+input, textarea {
+	border:1px solid #96BF55;
+	display:block;
+	background-color:#FFF;
+	padding-left:3px;
+	padding-right:3px;
+	font-family:verdana, arial, sans-serif;
+	font-size:11px;
+}
+
+input.inside, textarea.inside {
+	color:#383;
+}
+
+form {
+	margin:1em 0;
+}
+
+p {
+	margin:1em 0;
+}
+
+h1 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 180%;
+	color: #96BF55;
+	margin: 5px 0 15px 0;
+}
+
+	h1 span {
+		clear: both;
+		font-size: 60%;
+		color: #FF9;
+	}
+
+
+h2 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 150%;
+	color: #09f;
+	margin: 5px 0 15px 0;
+}
+
+	h2 span {
+		clear: both;
+		font-size: 70%;
+		color: #FF9;
+	}
+	
+h3 {
+	clear: both;
+	font-size: 120%;
+	color: #FF9;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
